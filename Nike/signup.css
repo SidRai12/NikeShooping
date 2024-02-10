@@ -1,0 +1,91 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(./images/open-graph-search-brands.png ) ;
+}
+#cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+    
+}
+form{
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 15px;
+    width: 21%;
+    padding: 63px;
+   
+
+
+}
+img{
+
+   margin-left: 8rem;
+    width: 20%;
+
+    
+}
+input{
+    width: 100%;
+    height: 5vh;
+    margin-bottom: 0.5rem;
+    border: 2px solid grey;
+    border-radius: 7px;
+}
+button{
+    background-color: #FFD43B;
+    border-bottom: 3px solid blue;
+    color: rgb(3, 39, 50);
+    width: 80%;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid blue;
+    border-bottom: 3px solid blue;
+    text-align: center;
+    margin-top: 1rem;
+    margin-left: 2rem;
+
+   
+    
+   
+}
+button:hover{
+    background-color: darkgoldenrod;
+    
+
+}
+span{
+    
+    color: red;
+    font-size: 15px;
+    
+}
+@media(max-width:477px){
+    #cont{
+       margin-top: 0;
+        
+        
+    }
+    img{
+
+        margin-left:6.2rem;
+         width: 20%;
+     
+         
+     }
+    form{
+        
+        background-color: white;
+        border: 1px solid white;
+        border-radius: 15px;
+        width: 60%;
+        padding: 63px;
+       
+    
+    
+    }
+
+}

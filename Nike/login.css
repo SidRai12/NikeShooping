@@ -1,0 +1,191 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+    
+    background-image: url(./images/open-graph-search-brands.png ) ;
+    margin: 0;
+    padding: 0;
+    
+}
+.p{
+    display: block;
+}
+#cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+form{
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 15px;
+    width: 18%;
+    padding: 63px;
+
+
+}
+
+form h5{
+  
+  margin: 26px;
+  padding: 11px;
+    color: #fab005;
+    letter-spacing: 2px;
+     font-size: 20px;
+    text-align: center;
+    margin-top: -45px;
+    padding-top: 0;
+}
+form .fa-solid{
+    display: flex;
+    justify-content: center;
+    
+}
+form h3{
+    color: rgb(45, 45, 163);
+    text-align: center;
+    font-size: 25px;
+}
+form p{
+    text-align: center;
+    font-size: 15px;
+}
+form .p{
+    color: rgb(45, 45, 163);
+}
+form .pa{
+    border: 1px solid  rgb(45, 45, 163);
+    border-radius: 5px;
+    width: 100%;
+    height:31px ;
+   margin: 12px;
+}
+form a{
+    text-decoration:dotted;
+    color:rgb(26, 133, 169);
+    font-size: 13px;
+   
+}
+div #main{
+   display: flex;
+   justify-content: space-between;
+   width: 120%;
+
+    
+    
+}
+div #main label{
+    margin-left: -2rem;
+}
+button{
+    background-color: #FFD43B;
+    border-bottom: 3px solid blue;
+    color: rgb(3, 39, 50);
+    width: 104%;
+    height: 40px;
+    border-radius: 5px;
+    margin: 10px;
+    border: 1px solid blue;
+    margin-top: 0px;
+    border-bottom: 3px solid blue;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 0;
+    
+   
+}
+.fa-envelope
+{
+    position: absolute;
+    top: 42px;
+    left: 22px;
+}
+#user{
+    position: relative;
+}
+/* #user::placeholder{
+    padding: 2rem;
+} */
+.fa-lock{
+    position: absolute;
+    top: 42px;
+    left: 22px;
+
+}
+#user2{
+    position: relative;
+}
+#btn
+{
+    position: relative;
+}
+.fa-right-to-bracket{
+    position: absolute;
+    top: 69px;
+    left: 180px;
+}
+button:hover{
+    background-color: darkgoldenrod;
+    
+
+}
+.fa-solid:hover{
+    transform: rotate(360deg);
+    transition: 4s;
+    
+}
+#ref{
+    display: flex;
+    justify-content: center;
+     margin-top: -60px;
+     
+    
+}
+a{
+    text-decoration: dashed;
+     color: (26, 133, 169);
+     
+}
+span{
+    color: red;
+    
+}
+
+@media(max-width:477px){
+    #cont{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin-top: -5rem;
+        margin-bottom: -2rem;
+
+    }
+    form{
+        background-color: white;
+        border: 1px solid white;
+        border-radius: 15px;
+        width: 60%;
+        padding: 63px;
+       
+    
+    
+    }
+    form h3{
+        color: rgb(45, 45, 163);
+        text-align: center;
+        font-size: 23px;
+    }
+    button{
+        margin-left: 0rem;
+        
+       
+    }
+     #ref {
+        
+        margin-top: -7rem;
+        
+     }
+   
+
+}
